@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: url("../../assets/images/background.png") center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.login-form {
+  max-width: 300px;
+}
+
+.login-form-margin {
+  width: 300px;
+  margin-bottom: 16px;
+}
+
+.login-form-forgot {
+  float: right;
+  color: brown;
+}
+
+.login-form-button {
+  width: 100%;
+}
